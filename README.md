@@ -60,7 +60,12 @@ javap -c simple.class > simple.bytecode
 [MORE](https://dzone.com/articles/ruby-inquiry-it-interpreted-or)
 
 
+# Section 3
 
+Ruby Language
+
+1. Hello world 
+To comment ruby code we use # symbol
 
 
 
