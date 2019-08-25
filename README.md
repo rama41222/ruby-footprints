@@ -65,9 +65,26 @@ javap -c simple.class > simple.bytecode
 Ruby Language
 -------------
 
-1. Hello world 
-To comment ruby code we use `#`
+1. Strings
+1.1 String interpolation 
+* Practice ruby systax using irb. Much faster than creating and running files.
+* string.class - Type of String
+* string.methods - All methods 
+* .to_s .nil? .empty? .exists? .length .reverse 
+* `ctrl + l` will clear up irb
+* Strings are pass by value
+*  #{ } - Acts as a template string for interpolation
+* Single quotes doesn't work with interpinolation
+* Escape characters also doesn't work with single quotes
+* Empty spaces are counted as characters `" ".nil? ` # false
 
+2. Conversions
+* .to_s .to_i .to_f .odd? .even? .round
+
+** Everything  in ruby is a object
+ 
+3. Methods and branching
+* Return is implicit
 
 
 
