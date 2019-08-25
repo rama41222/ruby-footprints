@@ -23,16 +23,36 @@ puts x.uniq!
 x.each { |e| puts e + 0.1 }
 
 # for in loop
-for e in x 
+for e in x
   puts "hi #{e}"
 end
 
 # each do
-x.each do |e| 
+x.each do |e|
   puts "a"
 end
 
-# selecting returns array
+# While loop
+t = gets.chomp.to_i
+while t >= 0
+  puts t
+  t -=1
+end
+
+# do while Loop
+# loop do
+#   code to be executed
+#   break if booleanExpression
+# end
+
+# do until Loop
+i = 1
+until i == 10
+    print i*10, "\n"
+    i += 1
+end
+
+# selecting returns array. If you want to seelct something
 x.select { |e| puts e.odd? }
 
 # 'print' doesn't add new line
@@ -40,3 +60,9 @@ x.each { |e| print "#{e} " if e.even? }
 puts
 name_parts = ["I", "YOU", "WE"]
 puts name_parts.join(' ')
+
+# Ruby uses next statement to skip the loops next iterration
+# Similar to continue in js
+# Redo repeats the current iteration of loop
+# Retry will again loop the same iteration
+
