@@ -62,3 +62,4 @@ puts %w[ant bear cats].any? { |word| word.length >= 4 }
 # to_h
 # uniq
 # zip
+# https://ruby-doc.org/core-2.5.1/Enumerable.html#method-i-count
