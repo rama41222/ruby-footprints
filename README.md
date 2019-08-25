@@ -40,9 +40,9 @@ ruby [filename]
 It's a dynamic, OO, Open source programming language developed by Matz using the principles of Zen(minimalistic and productive). It has been for 20+ years. With rails, the popularity of Ruby increased.
 
 However, JRuby and Rubinius, which are popular implementations of ruby are compiled
-1. Rubinius -COMPILES(Rubinius compiler(C++))-> BYTECODE -COMPILES(Rubinius JIT Compiler (C++)) @ Runtime-> MACHINE CODE
+1. Rubinius -COMPILES(Rubinius compiler)-> BYTECODE -COMPILES(Rubinius JIT Compiler (C++)) @ Runtime-> MACHINE CODE
 `rbx compile simple.rb -o simple.bytecode`
-2. JRuby - -COMPILES(JRuby compiler(Java)-> BYTECODE -COMPILES(Execute bytecode using JVM (JAVA JIT Compiler)) @ Runtime-> MACHINE CODE
+2. JRuby - -COMPILES(JRuby compiler(Java)-> BYTECODE -COMPILES(Execute bytecode using JVM (JAVA JIT Compiler (C))) @ Runtime-> MACHINE CODE
 
 ##### Using
 ```
@@ -63,9 +63,11 @@ javap -c simple.class > simple.bytecode
 # Section 3
 
 Ruby Language
+-------------
 
 1. Hello world 
-To comment ruby code we use # symbol
+To comment ruby code we use `#`
+
 
 
 
