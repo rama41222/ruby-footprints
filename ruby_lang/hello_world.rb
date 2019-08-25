@@ -21,6 +21,7 @@ greet "abc"
 
 puts "abc" + "def"
 puts "abc #{hello}"
+
 # Shifted to irb console for strings
 
 # Input from CLI
@@ -29,7 +30,6 @@ num_one = gets.chomp
 puts "#{num_one} + No 2:"
 num_two = gets.chomp
 puts "#{num_one} + #{num_two} = #{ num_one.to_i + num_two.to_i }"
-
 
 # times
 20.times { puts "20 times"}
