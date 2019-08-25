@@ -33,3 +33,7 @@ puts "#{num_one} + #{num_two} = #{ num_one.to_i + num_two.to_i }"
 
 # times
 20.times { puts "20 times"}
+
+
+# .eql? Checks for equality and type of the operands
+# equal?  Checks for the object ID
