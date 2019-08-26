@@ -11,6 +11,8 @@ end
 
 loop do
   puts "Input a country code: "
+  $codes.each { |k, v| print k.to_s + " " }
+  puts
   code = gets.chomp
   puts select_code(code)
   puts "continue ? "
