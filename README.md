@@ -75,6 +75,11 @@ javap -c simple.class > simple.bytecode
 ```
 [MORE](https://dzone.com/articles/ruby-inquiry-it-interpreted-or)
 
+##### Running rails tasks
+```
+rails --tasks # view all possible tasks
+rails [class_name]:[function_name] # run a task
+```
 
 ## Section 3
 
