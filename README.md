@@ -33,6 +33,11 @@ rails c # Open the console
 ruby [filename]
 ```
 
+### General commands
+```
+rails routes # List down all available routes.
+```
+
 ## Section 2
 
 ### What is Ruby? 
