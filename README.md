@@ -124,5 +124,18 @@ Ruby Style Conventions
 ----------------------
 * More @ [git](https://github.com/rubocop-hq/ruby-style-guide)
 
+## Section 5
 
+Architecture
+------------
+Rails framework follows the MVC architecture. 
+<br>
+<img src="http://ptgmedia.pearsoncmg.com/images/chap2_9780134077703/elementLinks/hartl_fig02-07_alt.jpg">
+<br>
+The data flow will be as follows
+1. Call the route
+2. Controller 
+3. Model *Optional*
+4. Database *Optional*
+5. View
  
