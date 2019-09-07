@@ -144,3 +144,17 @@ The data flow will be as follows
 4. Database *Optional*
 5. View
  
+ ## Section 6
+
+Common errors in Ruby are;
+```
+NameError: uninitialized constant []
+NameError: uninitialized constant Object::Something
+```
+* Ruby is case sensitive.
+
+##### Uninitialized constant
+* Extends from NameError exception class
+* Thrown when the code refers to an unknown variable (The code can't resolve)
+* Classes start with upper case letters, instance variables or class variables start with lower case, Therefore it can be a side effect of misusing.
+
