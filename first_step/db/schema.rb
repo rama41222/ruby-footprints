@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2019_09_06_204643) do
 
   create_table "articles", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci", force: :cascade do |t|
     t.string "title"
-    t.text "destription"
+    t.text "description"
     t.boolean "active", default: true
     t.datetime "deleted_at"
     t.datetime "created_at", null: false
