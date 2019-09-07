@@ -1,0 +1,3 @@
+class Article < FootPrint
+end
+
