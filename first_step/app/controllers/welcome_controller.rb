@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
 
   def home
-    puts "Home"
+    render_success("sds", "Dff", "Dffd")
   end
 
   def edit
