@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'welcome#home' # defines the root route
-  get 'welcome/home' => 'welcome#home'
-  get 'welcome/about' => 'welcome#about'
+  root 'article#home' # defines the root route
+  get 'article/home' => 'article#home'
+  get 'article/about' => 'article#about'
 end

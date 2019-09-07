@@ -1,7 +1,7 @@
-class WelcomeController < ApplicationController
+class ArticleController < ApplicationController
 
-  def home
-    article = Welcome.all
+  def index
+    @article = Article.all
   end
 
   def edit

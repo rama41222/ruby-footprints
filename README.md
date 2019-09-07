@@ -126,7 +126,13 @@ Ruby
 ## Section 4
 
 Ruby Style Conventions
-----------------------
+----------------------s
+* Model Name: Singular, First letter upper case.
+* Table Name: Plural, lower case model name 
+* Model File: Snake case
+* Controller file: Snake Case
+* Classes: Pascal case
+
 * More @ [git](https://github.com/rubocop-hq/ruby-style-guide)
 
 ## Section 5
