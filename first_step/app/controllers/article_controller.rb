@@ -5,6 +5,10 @@ class ArticleController < ApplicationController
     @articles = Article.all
   end
 
+  def new
+
+  end
+
   def edit
 
   end
@@ -16,6 +20,7 @@ class ArticleController < ApplicationController
   def delete
 
   end
+
 
   private
   def set_article

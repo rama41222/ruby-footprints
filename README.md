@@ -163,3 +163,17 @@ NameError: uninitialized constant Object::Something
 * Thrown when the code refers to an unknown variable (The code can't resolve)
 * Classes start with upper case letters, instance variables or class variables start with lower case, Therefore it can be a side effect of misusing.
 
+
+## Section 7
+
+Rails Router has the following types
+1. Collection routes (Index action) - Used to show a collection of items 
+/articles
+2. Member routes (show action) - Used to show a specific item 
+/articles/:id
+
+You can setup the root route to goto any route.
+```
+root articles#index
+```
+
